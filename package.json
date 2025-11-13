@@ -30,7 +30,7 @@
     "@hey-api/openapi-ts": "0.80.1",
     "@types/node": "^24.0.14",
     "openapi-types": "^12.1.3",
-    "tsup": "^8.5.0",
+    "tsup": "8.5.1",
     "tsx": "^4.20.3",
     "turbo": "^2.5.5",
     "typescript": "^5.8.3"

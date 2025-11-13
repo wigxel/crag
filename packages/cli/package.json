@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch",
+    "dev": "tsup --watch=./src/*",
     "run": "tsx src/cli.ts",
     "start": "node dist/cli.js"
   },
@@ -40,7 +40,6 @@
     "@tanstack/react-query-devtools": "^5.85.0",
     "@types/node": "^24.0.14",
     "openapi-types": "^12.1.3",
-    "tsup": "^8.5.0",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   },

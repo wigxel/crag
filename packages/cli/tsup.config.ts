@@ -5,7 +5,6 @@ export default defineConfig({
     "crag": "./src/cli.ts",
   },
   outDir: "bin",
-  watch: ['./src/*'],
   external: ['typescript', '@hey-api/openapi-ts'],
   format: ["esm"],
   dts: true,
