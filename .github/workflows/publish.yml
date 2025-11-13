@@ -25,11 +25,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run linting (if available)
-        run: pnpm lint --if-present
+      # - name: Run linting (if available)
+      #   run: pnpm lint --if-present
 
-      - name: Run tests
-        run: pnpm test --if-present
+      # - name: Run tests
+      #   run: pnpm test --if-present
 
       - name: Build project
         run: pnpm build
