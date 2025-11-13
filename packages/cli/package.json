@@ -12,7 +12,8 @@
     "build": "tsup",
     "dev": "tsup --watch=./src/*",
     "run": "tsx src/cli.ts",
-    "start": "node dist/cli.js"
+    "start": "node dist/cli.js",
+    "prepublish": "pnpm run build"
   },
   "repository": {
     "type": "git",
