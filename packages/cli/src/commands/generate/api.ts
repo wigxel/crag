@@ -1,10 +1,10 @@
+import { createClient } from '@hey-api/openapi-ts';
+import postmanToOpenApi from '@readme/postman-to-openapi';
 import { defineCommand } from "citty";
 import { Match, pipe, Schema } from "effect";
-import { createClient } from '@hey-api/openapi-ts';
-import postmanToOpenApi from 'postman-to-openapi';
 import { config, configFile } from "~/config";
-import { type InputEntry, input } from "~/schema";
 import { rootLogger } from "~/logger";
+import { type InputEntry, input } from "~/schema";
 
 export default defineCommand({
   meta: {
