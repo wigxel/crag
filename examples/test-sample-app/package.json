@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "crag": "workspace:*",
+    "@wigxel/crag": "workspace:*",
     "@tanstack/react-query": "^5.83.0"
   }
 }
