@@ -12,8 +12,7 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "run": "tsx src/cli.ts",
-    "start": "node dist/cli.js",
-    "postinstall": "npx patch-package"
+    "start": "node dist/cli.js"
   },
   "repository": {
     "type": "git",
