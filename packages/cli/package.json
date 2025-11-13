@@ -1,6 +1,6 @@
 {
-  "name": "crag",
-  "version": "1.0.3",
+  "name": "@wigxel/crag",
+  "version": "0.0.1",
   "private": false,
   "type": "module",
   "description": "A CLI tool that helps generate code from API specs",
@@ -20,12 +20,12 @@
     "url": "git+https://github.com/Bu-okem/crag.git"
   },
   "keywords": [],
-  "author": "Buokem",
+  "author": "wigxel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bu-okem/crag/issues"
+    "url": "https://github.com/wigxel/crag/issues"
   },
-  "homepage": "https://github.com/Bu-okem/crag#readme",
+  "homepage": "https://github.com/wigxel/crag#readme",
   "dependencies": {
     "@apidevtools/swagger-parser": "^12.0.0",
     "@tanstack/react-query": "^5.83.0",
